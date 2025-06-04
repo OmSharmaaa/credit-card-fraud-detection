@@ -19,7 +19,25 @@ A machine learning model to detect fraudulent credit card transactions using log
 - Accuracy on test set: **93%**
 
 ## 🛠️ Tools & Libraries
-- Python, Pandas
+- Python, Pandas, matplotlib, seaborn
+
+## 📈 Results
+
+| Metric   | Score |
+|----------|-------|
+| Accuracy | 93%   |
+
+### 📊 Visualizations
+
+- **Transaction Distribution (Before & After Sampling):** Shows class imbalance and how it was corrected with undersampling.
+- **Feature Correlation Heatmap:** Helps understand feature relationships.
+- **Confusion Matrix:** Provides insight into classification performance — how many frauds were correctly identified.
+
+<p align="center">
+  <img src="C:\Users\omsha\OneDrive\Pictures\1.png" width="400"/>  
+</p>
+
+
 
 ## 📁 Dataset
 [Credit Card Fraud Detection Dataset on Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud)
