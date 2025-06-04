@@ -9,10 +9,17 @@ A machine learning model to detect fraudulent credit card transactions using log
 ## 🔍 Project Summary
 - Built on the Kaggle Credit Card Fraud dataset (284,807 transactions).
 - Achieved 93% accuracy using Logistic Regression with feature scaling and class balancing (SMOTE).
-- Evaluated using ROC-AUC, precision, recall, and confusion matrix.
+- Evaluated using accuracy.
+
+## 🔍 Project Highlights
+- **Model Used:** Logistic Regression
+- **Evaluation Metric:** Accuracy Score
+- Used `accuracy_score` from Scikit-learn to evaluate model performance on test data.
+- Model predicts transaction class (fraud or not fraud) based on features using `.predict()` method.
+- Accuracy on test set: **93%**
 
 ## 🛠️ Tools & Libraries
-- Python, Pandas, Scikit-learn, Matplotlib, Seaborn
+- Python, Pandas
 
 ## 📁 Dataset
 [Credit Card Fraud Detection Dataset on Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud)
