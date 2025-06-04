@@ -34,7 +34,9 @@ A machine learning model to detect fraudulent credit card transactions using log
 - **Confusion Matrix:** Provides insight into classification performance — how many frauds were correctly identified.
 
 <p align="center">
-  <img src="images/class_distributions.png" width="600"/>
+  <img src="images/1.png" width="600"/>
+  <img src="images/2.png" width="600"/>
+  <img src="images/3.png" width="600"/>
 </p>
 
 
